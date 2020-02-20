@@ -1,0 +1,22 @@
+{
+  "name": "my-vue-cli",
+  "version": "1.0.0",
+  "description": "#### 安装插件 > npm install chalk ora commander inquirer --save chalk: log不同颜色字体 ora: 显示控制条 inquirer: 交互提问 commander: 自定义命令相关",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mycli": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.1",
+    "inquirer": "^7.0.4",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {}
+}
