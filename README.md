@@ -23,8 +23,8 @@ commander: 自定义命令相关
 
 ### 工程化
 1. 命令行工具 cli
-2. 规范（ 代码规范）
-3. 测试
+2. 规范（ 代码规范）typescript
+3. 测试 
 4. 构建打包webpack
 5. 集成与部署(junks)
 6. 代码管理（gitlab）
