@@ -29,6 +29,12 @@ commander: 自定义命令相关
 5. 集成与部署(junks)
 6. 代码管理（gitlab）
 
+### 命令
+install	帮用户安装/升级一个「模板插件包」
+init	帮用户初始化一个工程，并拷贝模板
+build	调用工程中的「构建插件包」，帮用户webpack构建
+dev	帮用户启动 devServer 进行调试
+
 #### ps
 for 和 forEach
 for 循环 处理异步 会有经典的闭包问题
