@@ -29,11 +29,26 @@ commander: 自定义命令相关
 5. 集成与部署(junks)
 6. 代码管理（gitlab）
 
-### 命令
-install	帮用户安装/升级一个「模板插件包」
-init	帮用户初始化一个工程，并拷贝模板
-build	调用工程中的「构建插件包」，帮用户webpack构建
-dev	帮用户启动 devServer 进行调试
+
+### 脚手架的三类包
+- 全局命令包， 安装在全局， 本例 为 mycli
+    提供安装命令， install, init, build, dev
+    安装在本地的 .my-cli 文件夹
+    #### 命令
+    install	帮用户安装/升级一个「模板插件包」
+    init	帮用户初始化一个工程，并拷贝模板
+    build	调用工程中的「构建插件包」，帮用户webpack构建
+    dev	帮用户启动 devServer 进行调试
+    
+- 模版插件包
+    提供init初始化的项目模版
+    使用version版本管理
+    支持模版的扩展
+    安装在本地 的 .my-cli 文件夹的node-modules 中
+- 构建插件包
+    提供构建的能力
+    去npm 仓库安装到 新建的项目中
+    npm i build-tpl@latest -S --registry=https://registry.npm.taobao.org
 
 #### ps
 for 和 forEach
